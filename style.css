@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 40px;
+}
+h4{
+    text-align: center;
+}
+.pink-highlight{
+    color: slateblue;
+}
+.salmon{
+    color: tomato;
+}
+p{
+    color: dimgray;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.header{
+    background-image: url("images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;  
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(pink,deeppink);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+.biography{
+    background-image: url("images/biography-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.container{
+    text-align: center;
+    display: inline-block;
+    margin: 50px auto;
+    margin-left: 60px;
+    margin-right: -4px auto;
+    padding: 50px;
+    
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-position: initial;
+    
+}
+#hello{
+    text-decoration: initial;
+    text-align: center;
+    font-size: 30px;
+    
+    color: rgb(51, 51, 138);
+}
+#info{
+    text-align: center;
+}
+.client-comment{
+    text-align: center;
+}
+.email-message{
+    text-align: center;
+    color: white;
+   background-color: slateblue;
+   padding: 30px;
+   margin-left: 500px;
+   margin-right: 500px;
+   box-shadow: 10px 10px 40px; 
+   border-radius: 10px;
+   font-size: 30px;
+   text-align: left;
+}
+.footer{
+    margin-top: 200px;
+    background-image: url("images/footer-bg.png");
+     background-repeat: no-repeat;
+     background-position: center; 
+     background-size: auto; 
+     
+}
+#copyright-sign{
+    text-align: center;
+    font-size: 12px;
+}
+.chat{
+    text-decoration: none;
+    background-image: linear-gradient(pink,tomato);
+    padding: 20px 20px;
+    margin-left: 100px;
+    border-radius: 5px;
+    color: white;
+    text-align: right;
+    
+}
+.icon {
+    height: 10px;
+    width: 10px;
+    min-width:2px;
+    margin-left: 550px ;
+    padding-left: 20px;
+    display: inline;
+    position: initial;
+
+    
+}
+.icon img{
+    width: 5%;
+    margin-left: 30px;
+}
+.icon:nth-child(3n+0) {
+    clear:right;
+    display:block;
+}
